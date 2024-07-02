@@ -1,0 +1,19 @@
+[project]
+name = "bookmarks.md"
+version = "0.1.0"
+description = "A CLI to manage bookmarks stored in Markdown"
+authors = [
+    {name = "Rameez Khan", email = "rameezkhan.sa@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
